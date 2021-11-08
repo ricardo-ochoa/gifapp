@@ -1,2 +1,42 @@
-*{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif}body{padding:3rem}input{font-size:1.5rem;color:#9acd32}.card{align-content:center;border:1px solid grey;border-radius:.5rem;margin-bottom:1rem;margin-left:.5rem;overflow:hidden}.card p{padding:.5rem;text-align:center}.card img{max-height:200px}.card-grid{display:flex;flex-direction:row;flex-wrap:wrap}
-/*# sourceMappingURL=main.d0115f6e.chunk.css.map */
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+
+
+body{
+  padding: 3rem;
+  background-color: rgb(13, 13, 32);
+}
+
+input {
+  font-size: 1.5rem;
+  color: yellowgreen;
+}
+
+
+.card {
+  align-content: center;
+  border: 4px solid rgb(10, 10, 10);
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;  
+  margin-right: 1rem;      
+  overflow: hidden;
+
+  height: 200px;
+}
+
+.card img {
+  width: auto;
+  height: 100%;
+} 
+
+.card-grid {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+ol {
+  padding-left: 0;
+  overflow-x: scroll;
+}
