@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGridItem Debe mostrarse correctamente <GifGridItem /> 1`] = `
+<Fragment>
+  <div
+    className="card animate__animated animate__pulse"
+  >
+    <img
+      alt="One Piece"
+      src="https://giphy.com/onepiece.jpg"
+    />
+  </div>
+</Fragment>
+`;
